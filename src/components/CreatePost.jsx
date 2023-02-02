@@ -53,7 +53,7 @@ const CreatePost = () => {
 
         <div className="tone_select">
             <div>
-                <p>Tone 1<span style={{ fontSize: '.8em', height: '15px', width: '15px', borderRadius: '50%', textAlign: 'center', backgroundColor: 'gray', cursor: 'pointer' }}>x</span></p>
+                <p>Tone 1<span style={{ fontSize: '.8em', height: '15px', width: '15px', borderRadius: '50%', textAlign: 'center', backgroundColor: 'rgb(212, 209, 209)', cursor: 'pointer' }}>x</span></p>
             </div>
 
             <div>
