@@ -21,6 +21,8 @@
     gap: 1em;
     justify-content: space-between;
     margin-left: .8em;
+    position: relative;
+    top: .5em;
 
 }
 
