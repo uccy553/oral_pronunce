@@ -105,7 +105,7 @@
 
 
 .tone_select > div {
-    background-color: rgb(209, 204, 204);
+    background-color: var(--grey-background);
     width: 85px;
     display: flex;
     justify-content: center;
