@@ -1,0 +1,183 @@
+.post {
+    display: flex;
+    flex-direction: column;
+    
+}
+.info-circle {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    right: 2em;
+}
+
+.create__post {
+    border: none;
+}
+
+.text__area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: .5em;
+}
+
+.text_area {
+    width: 90%;
+    height: 6em;
+    outline: none;
+}
+
+.red-outline {
+    border: 2px solid red;
+    outline: red;
+    width: 90%;
+    height: 6em;
+}
+
+.media-content {
+    margin-top: 2em;
+    display: flex;
+
+    flex-direction: column;
+  
+    gap: .5em;
+}
+
+.media-content > p {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 1em;
+    margin-left: 1.2em;
+}
+
+.file-upload {
+    height: 5em;
+    border: 2px dashed var(--main-color);
+   display: flex;
+   justify-content: center;
+   width: 90%;
+   height: 6em;
+   background-color: var(--grey-background);
+   margin-left: 1em;
+   align-items: center;
+   gap: 1em;
+
+}
+
+.file__upload {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.upload {
+    width: 30px;
+    height: 30px;
+}
+
+.tone {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.5em;
+    width: 90%;
+    margin-left: 1em;
+}
+
+.tone_voice {
+    display: flex;
+    justify-content: space-between;
+}
+
+.tone > select {
+    height: 3em;
+    margin-top: .5em;
+}
+
+.tone_select {
+    margin-top: 1em;
+    display: flex;
+    gap: .9em;
+    flex-wrap: wrap;
+}
+
+
+.tone_select > div {
+    background-color: rgb(209, 204, 204);
+    width: 85px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 2em;
+    border-radius: 20px;
+}
+
+.tone_select > div > p {
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+    align-items: center;
+}
+
+.placeholders {
+    margin-top: 2em;
+    margin-left: 1em;
+ 
+}
+
+.slider {
+    width: 90%;
+}
+
+.social {
+    margin-top: 2em;
+    margin: 1.5em;
+
+}
+
+.social > p {
+    font-size: 1.3em;
+}
+
+.social_info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.social_info > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1em;
+}
+
+.social-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5em;
+    margin-top: 2em;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1em;
+}
+
+.button > button {
+    height: 2em;
+    color: #fff;
+    width: 20em;
+    background-color: var(--main-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.5em;
+    gap: .3em;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}

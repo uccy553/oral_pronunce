@@ -1,0 +1,105 @@
+.preview {
+    margin-top: 1em !important;
+    width: 90%;
+    margin: 0 auto;
+    box-shadow: -5px -5px 9px #0a2c2f73, 6px 6px 8px rgba(39, 68, 77, 0.288);
+}
+
+ h2 {
+    color: var(--main-color);
+}
+
+.a_vatar {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.preview_social {
+    display: flex;
+    gap: 1em;
+    justify-content: space-between;
+    margin-left: .8em;
+
+}
+
+.option {
+    position: relative;
+    top: .5em;
+    right: .6em;
+}
+
+.preview_social > div {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    right: 2.8em;
+}
+
+.devs {
+    width: 100%;
+    height: 180px;
+    margin-top: .7em;
+}
+
+.preview-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1em;
+}
+
+.preview-text > p {
+    width: 90%;
+    text-align: left;
+}
+
+.icon {
+   
+    display: flex;
+    margin: .9em;
+    justify-content: space-between;
+}
+
+.icon-section {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.icon-section > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrow {
+    margin-top: 1.4em;
+    margin-left: 1em;
+    display: flex;
+    justify-content: space-around;
+}
+
+.arrow_image {
+    display: flex;
+    gap: 1.3em;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.4em;
+}
+
+.btn > button {
+    height: 3em;
+    width: 18em;
+    background-color: var(--main-color);
+    border: none;
+    border-radius: 9px;
+    color: #fff;
+    font-size: .9em;
+}
