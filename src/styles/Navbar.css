@@ -19,6 +19,10 @@ nav > h3 {
     margin-right: 1em;
 }
 
+.logo {
+    margin-left: 1em;
+}
+
 @media only screen and (min-device-width: 280px) and (max-device-width: 540px) {
     nav {
         justify-content: center;
