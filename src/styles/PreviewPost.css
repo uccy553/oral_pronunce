@@ -1,6 +1,7 @@
 .preview {
     margin-top: 1em !important;
     width: 90%;
+    border-radius: 13px;
     margin: 0 auto;
     box-shadow: -5px -5px 9px #0a2c2f73, 6px 6px 8px rgba(39, 68, 77, 0.288);
 }
